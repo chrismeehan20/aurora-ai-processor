@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Aurora AI Processor for Sheets</title>
+    <style>
+        body {
+            font-family: 'Google Sans', Arial, sans-serif;
+            line-height: 1.6;
+            color: #202124;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #4285F4;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #34A853;
+            font-size: 24px;
+            margin: 30px 0 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #dadce0;
+        }
+        h3 {
+            color: #4285F4;
+            font-size: 20px;
+            margin: 25px 0 10px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        .effective-date {
+            font-style: italic;
+            color: #5F6368;
+            margin-bottom: 30px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #4285F4;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            color: #5F6368;
+            font-size: 14px;
+        }
+        .footer-links a {
+            color: #4285F4;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .highlight-box {
+            background-color: #e8f0fe;
+            border-left: 4px solid #4285F4;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <p class="effective-date">Effective date: March 20, 2025</p>
+        </header>
+
+        <div class="highlight-box">
+            <h3>Zero-Knowledge Architecture</h3>
+            <p><strong>Aurora AI Processor for Sheets operates with a zero-knowledge approach.</strong> We do not see, store, access, or process your spreadsheet data on our servers. All processing happens directly between your Google Sheet and your chosen AI provider using your own API keys.</p>
+        </div>
+
+        <h2>Introduction</h2>
+        <p>Welcome to Aurora AI Processor for Sheets ("we," "our," or "us"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Google Sheets Add-on. Please read this Privacy Policy carefully. By using the Aurora AI Processor Add-on, you consent to the data practices described in this statement.</p>
+
+        <h2>Information We Collect</h2>
+        
+        <h3>Data from your Spreadsheets</h3>
+        <p><strong>We do not collect, store, or process your spreadsheet data on our servers.</strong> Aurora AI Processor only accesses data from the active spreadsheet when you explicitly initiate processing, and this data is processed entirely within the Google Apps Script environment. The data you select is sent directly from the Google Apps Script environment to the AI provider you choose (OpenAI, Anthropic Claude, or Google Gemini) to generate responses based on your prompts.</p>
+        <p>At no point do we, the developers of Aurora AI Processor, have access to your spreadsheet data. We cannot see what data you are processing or the results of that processing.</p>
+        
+        <h3>API Keys</h3>
+        <p>We collect and store API keys that you provide for third-party services (OpenAI, Anthropic Claude, or Google Gemini). These API keys are stored securely in Google's UserProperties service, which provides a secure, user-specific storage mechanism within Google's infrastructure. Your API keys are:</p>
+        <ul>
+            <li>Never exposed in your spreadsheet</li>
+            <li>Never shared with other users</li>
+            <li>Never transmitted to our servers</li>
+            <li>Never visible to us or anyone else</li>
+            <li>Only used to authenticate with your chosen AI service</li>
+        </ul>
+        
+        <h3>Configuration Data</h3>
+        <p>We store your processing configurations, saved prompts, and preferences within Google's UserProperties and DocumentProperties services to provide a better user experience. This data is:</p>
+        <ul>
+            <li>Stored within Google's secure infrastructure</li>
+            <li>Only accessible by you</li>
+            <li>Never transmitted to our servers</li>
+            <li>Never visible to us or anyone else</li>
+        </ul>
+
+        <h2>How We Use Your Information</h2>
+        
+        <h3>Processing Spreadsheet Data</h3>
+        <p>The spreadsheet data you select, along with the prompts you provide, is sent directly from the Google Apps Script environment to the AI provider of your choice. The AI provider then processes this data and returns generated content, which is placed in your spreadsheet according to your configuration. At no point in this process does your data pass through our servers or become visible to us.</p>
+        
+        <h3>API Keys</h3>
+        <p>We use your API keys solely to authenticate with the third-party AI services you choose to use. Your API keys are only used within the Google Apps Script environment and are never transferred to or stored on our servers. We never use your API keys for any other purpose, and we do not perform any additional API calls beyond those necessary to fulfill your requested processing tasks.</p>
+        
+        <h3>Service Improvement</h3>
+        <p>Since we do not collect any user data, any improvements to our service are based solely on user feedback provided voluntarily through our support channels, not through automatic data collection or analytics.</p>
+
+        <h2>Data Sharing and Disclosure</h2>
+        
+        <h3>Third-Party AI Providers</h3>
+        <p>When you use the Add-on, the data you select for processing is sent directly from the Google Apps Script environment to the third-party AI provider you choose (OpenAI, Anthropic Claude, or Google Gemini). Each of these providers has their own privacy policies governing how they handle your data:</p>
+        <ul>
+            <li>OpenAI: <a href="https://openai.com/policies/privacy-policy" target="_blank">https://openai.com/policies/privacy-policy</a></li>
+            <li>Anthropic: <a href="https://www.anthropic.com/privacy" target="_blank">https://www.anthropic.com/privacy</a></li>
+            <li>Google (Gemini): <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+        </ul>
+        <p>We encourage you to review these privacy policies before using the respective services through our Add-on.</p>
+        
+        <h3>No Sale or Access to Personal Information</h3>
+        <p>We do not sell, trade, rent, or otherwise transfer your API keys or spreadsheet data to outside parties. We do not have access to this information in the first place, as it is stored securely within Google's infrastructure and is only accessible by you.</p>
+
+        <h2>Data Security</h2>
+        <p>We implement appropriate technical and organizational measures to protect your data:</p>
+        <ul>
+            <li>API keys are stored securely in Google's UserProperties service, which provides user-specific, encrypted storage</li>
+            <li>We do not store your spreadsheet data permanently or temporarily; it is only processed in memory during active processing operations</li>
+            <li>All communications between the Google Apps Script environment and third-party AI providers use secure HTTPS connections</li>
+            <li>We follow Google's security best practices for Google Workspace Add-ons</li>
+            <li>We have designed the Add-on with a zero-knowledge architecture, meaning we never see or have access to your data</li>
+        </ul>
+        <p>However, no method of transmission over the Internet or electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your information, we cannot guarantee its absolute security.</p>
+
+        <h2>Your Rights and Choices</h2>
+        <p>You have control over your data at all times:</p>
+        <ul>
+            <li>You can delete your saved configurations and prompts at any time through the Add-on interface</li>
+            <li>You can revoke or change your stored API keys at any time</li>
+            <li>You can uninstall the Add-on to remove all stored preferences and configurations</li>
+        </ul>
+
+        <h2>Children's Privacy</h2>
+        <p>Our Add-on is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the effective date. You are advised to review this Privacy Policy periodically for any changes.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+        <p>Email: [Your Contact Email]</p>
+
+        <a href="index.html" class="back-link">← Back to Home</a>
+
+        <footer>
+            <p>&copy; 2025 Aurora AI Processor for Sheets. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="terms-of-service.html">Terms of Service</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
