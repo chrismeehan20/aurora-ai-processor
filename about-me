@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Developer | Aurora AI Processor for Sheets™</title>
+    <style>
+        body {
+            font-family: 'Google Sans', Arial, sans-serif;
+            line-height: 1.6;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            background-color: #111927;
+            background-image: linear-gradient(to bottom, #111927, #1a2333);
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        header img {
+            width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #7ee8fa;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #43cea2;
+            font-size: 24px;
+            margin: 30px 0 15px;
+        }
+        p {
+            margin-bottom: 20px;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+        .about-card {
+            background-color: #162133;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            margin-bottom: 30px;
+        }
+        .about-section {
+            margin-bottom: 30px;
+        }
+        .profile-pic {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 4px solid #43cea2;
+            margin: 0 auto 30px;
+            display: block;
+        }
+        .interests-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .interests-list li {
+            margin-bottom: 15px;
+            padding-left: 30px;
+            position: relative;
+        }
+        .interests-list li:before {
+            content: "✦";
+            position: absolute;
+            left: 0;
+            color: #43cea2;
+        }
+        .back-to-home {
+            display: inline-block;
+            background-color: #1D2D44;
+            color: #7ee8fa;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+        .back-to-home:hover {
+            background-color: #2A3F5F;
+            transform: translateY(-2px);
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            color: #a0a0a0;
+            font-size: 14px;
+            padding: 20px 0;
+            border-top: 1px solid #1a2333;
+        }
+        .footer-links a {
+            color: #7ee8fa;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer-links a:hover {
+            color: #43cea2;
+        }
+        .tm {
+            vertical-align: super;
+            font-size: 0.6em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://i.imgur.com/QYDEBCR.png" alt="Aurora AI Processor Logo">
+            <h1>About the Developer</h1>
+        </header>
+
+        <div class="about-card">
+            <div class="about-section">
+                <h2>Meet Chris Meehan</h2>
+                <p>I'm a teacher, edtech leader, and very amateur astronomer who loves building tools that make life easier.</p>
+                
+                <p>With a passion for education and technology, I create applications like Aurora AI Processor for Sheets<span class="tm">TM</span> to enhance workflows and solve specific problems I encounter in my daily work.</p>
+            </div>
+
+            <div class="about-section">
+                <h2>Beyond Coding</h2>
+                <p>When I'm not building apps or teaching, I love to travel. I've been fortunate enough to visit more than 40 countries, each offering unique perspectives and inspiration for my work and life.</p>
+                
+                <p>On clear nights, you might find me stargazing with my telescope, attempting to photograph celestial objects, or simply enjoying the wonders of the night sky.</p>
+            </div>
+
+            <div class="about-section">
+                <h2>Philosophy</h2>
+                <p>I believe in creating tools that serve a purpose rather than building technology for its own sake. The projects I develop are born from real needs I've identified in my own workflow.</p>
+                
+                <p>My hope is that you find value in these tools as well. If something I've created helps make your work more efficient or solves a problem you've been facing, that's the greatest reward for me as a developer.</p>
+            </div>
+        </div>
+
+        <a href="index.html" class="back-to-home">← Back to Home</a>
+
+        <footer>
+            <p>&copy; 2025 Aurora AI Processor for Sheets<span class="tm">TM</span>. All rights reserved.</p>
+            <p>Google Sheets™ is a trademark of Google LLC.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms-of-service.html">Terms of Service</a>
+                <a href="support.html">Support</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
