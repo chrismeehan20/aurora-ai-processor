@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Support Center</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        header {
+            background-color: #4285F4;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        nav {
+            background-color: #3367D6;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        nav ul li {
+            margin: 0 1rem;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        section {
+            margin-bottom: 3rem;
+            padding-top: 2rem;
+        }
+        
+        h2 {
+            border-bottom: 2px solid #4285F4;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        h3 {
+            margin: 1.5rem 0 0.5rem;
+            color: #3367D6;
+        }
+        
+        .instruction-step, .faq-item {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        
+        input, textarea {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        
+        button {
+            background-color: #4285F4;
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        
+        button:hover {
+            background-color: #3367D6;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #f5f5f5;
+            margin-top: 2rem;
+        }
+        
+        .footer-links {
+            margin-top: 1rem;
+        }
+        
+        .footer-links a {
+            margin: 0 1rem;
+            color: #4285F4;
+            text-decoration: none;
+        }
+        
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>App Support Center</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#instructions">Instructions</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#support">Get Support</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="overview">
+            <h2>Welcome to the App Support Center</h2>
+            <p>Get help with installation, usage, and troubleshooting for our Google Workspace app. This support page provides comprehensive information to help you get the most out of our application.</p>
+            <p>If you can't find the answer to your question, you can contact our support team using the form at the bottom of this page.</p>
+        </section>
+        
+        <section id="instructions">
+            <h2>How to Use Our App</h2>
+            
+            <div class="instruction-step">
+                <h3>Installation</h3>
+                <p>Visit the Google Workspace Marketplace and search for our app. Click "Install" and follow the prompts to grant necessary permissions. The app will be automatically added to your Google Workspace account.</p>
+            </div>
+            
+            <div class="instruction-step">
+                <h3>Initial Setup</h3>
+                <p>After installation, open Google Workspace and navigate to our app. Complete the initial configuration wizard by following these steps:</p>
+                <ol>
+                    <li>Sign in with your Google account</li>
+                    <li>Select which Google Workspace services you want to integrate with</li>
+                    <li>Configure your preferences</li>
+                    <li>Save your settings</li>
+                </ol>
+            </div>
+            
+            <div class="instruction-step">
+                <h3>Basic Features</h3>
+                <p>Our app includes several features to enhance your productivity:</p>
+                <ul>
+                    <li><strong>Feature 1:</strong> Description of the first feature and how to use it.</li>
+                    <li><strong>Feature 2:</strong> Description of the second feature and how to use it.</li>
+                    <li><strong>Feature 3:</strong> Description of the third feature and how to use it.</li>
+                </ul>
+            </div>
+            
+            <div class="instruction-step">
+                <h3>Advanced Features</h3>
+                <p>For power users, we offer advanced capabilities:</p>
+                <ul>
+                    <li><strong>Advanced Feature 1:</strong> Description and usage instructions.</li>
+                    <li><strong>Advanced Feature 2:</strong> Description and usage instructions.</li>
+                </ul>
+            </div>
+            
+            <div class="instruction-step">
+                <h3>Troubleshooting</h3>
+                <p>If you encounter any issues, try these steps:</p>
+                <ol>
+                    <li>Refresh the page</li>
+                    <li>Clear your browser cache</li>
+                    <li>Verify you have the latest version</li>
+                    <li>Check your permissions settings</li>
+                    <li>If problems persist, contact support using the form below</li>
+                </ol>
+            </div>
+        </section>
+        
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <h3>How do I install the app?</h3>
+                <p>Visit the Google Workspace Marketplace, search for our app, and click "Install." Follow the prompts to complete installation.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>What permissions does the app require?</h3>
+                <p>Our app requires access to specific Google Workspace services to function properly. These permissions are requested during installation and are used only for the app's core functionality. For details, please review our Privacy Policy.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>How do I update the app?</h3>
+                <p>The app updates automatically through the Google Workspace Marketplace. You'll always have the latest version without any manual intervention.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Is my data secure?</h3>
+                <p>Yes, we take data security seriously. All data is encrypted in transit and at rest. We do not store your content on our servers longer than necessary to provide the service. For detailed information, please review our Privacy Policy.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>How do I uninstall the app?</h3>
+                <p>Go to Google Workspace Marketplace, find our app, and click "Uninstall." This will remove the app and revoke its access to your Google Workspace account.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Is there a cost to use the app?</h3>
+                <p>Please check the app listing in the Google Workspace Marketplace for current pricing information. We offer different plans to meet various needs.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Does the app work on mobile devices?</h3>
+                <p>Yes, our app is designed to work across all devices where Google Workspace is accessible, including smartphones and tablets.</p>
+            </div>
+        </section>
+        
+        <section id="support">
+            <h2>Get Support</h2>
+            <p>If you couldn't find an answer to your question in the resources above, please fill out this form to contact our support team. We'll get back to you as soon as possible.</p>
+            
+            <form action="https://formsubmit.co/chrismeehan@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="New Support Request">
+                <input type="hidden" name="_captcha" value="false">
+                
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Describe your issue:</label>
+                    <textarea id="message" name="message" rows="7" required></textarea>
+                </div>
+                
+                <button type="submit">Submit Support Request</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 App Support Center. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="https://chrismeehan20.github.io/aurora-ai-processor/terms-of-service.html" target="_blank">Terms of Service</a>
+            <a href="https://chrismeehan20.github.io/aurora-ai-processor/privacy-policy.html" target="_blank">Privacy Policy</a>
+        </div>
+    </footer>
+</body>
+</html>
